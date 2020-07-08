@@ -2,6 +2,7 @@ import java.util.*;
 
 public class less03 {
     public static void main(String[] args){
+        ranDom();
         ranDom1();
     }
 
