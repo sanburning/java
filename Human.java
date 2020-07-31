@@ -1,0 +1,24 @@
+package com.san;
+
+public class Human {
+    private String name;
+    private int jump;
+    private int run;
+
+    public Human (String name, int jump, int run){
+        this.name = name;
+        this.jump = jump;
+        this.run = run;
+    }
+    public void info(){
+        System.out.println("Имя: " + name+ " Прыжок: "+ jump +" Бег:"+ run);
+    }
+
+    String getName(){return  name;}
+    int getJump(){
+        return jump;
+    }
+    int getRun(){
+        return run;
+    }
+}
